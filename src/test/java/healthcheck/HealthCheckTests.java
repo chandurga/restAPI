@@ -15,5 +15,6 @@ public class HealthCheckTests extends TestSetup {
     // Act
     Response response = HealthCheckAPI.healthCheck();
     assertEquals(201, response.getStatusCode());
+    assertEquals(201, response.getStatusCode());
   }
 }
